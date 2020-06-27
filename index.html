@@ -27,9 +27,9 @@
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#portlio">Portfolio</a></li>
-            <li><a href="#blogs">Blogs</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -91,7 +91,7 @@
           </p>
         </div>
       </div>
-      <section id="portfolio" class="flex-column">
+      <div id="portfolio" class="flex-column">
         <div class="project" id="project_1">
           <div class="project_img">
             <img src="img/todolist.jpg" />
@@ -146,8 +146,8 @@
             <a class="projectBtn" href="#">Try the App</a>
           </div>
         </div>
-      </section>
-      <div class="blogs">
+      </div>
+      <section id="blog" class="blogs">
         <div class="blog" id="blog_1">
           <h3>A simply way to get user’s Local Air Quality Index</h3>
           <p>
@@ -177,39 +177,44 @@
             >Read More</a
           >
         </div>
-      </div>
+      </section>
 
-      <section class="contact">
-        <form>
-          <label for="name">Your Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter Your name"
-          />
-          <label for="phone">Your Phone Number</label>
-          <input
-            type="text"
-            name="phone"
-            id="phone"
-            placeholder="Enter Your Phone number"
-          />
-          <label for="email">Your Email Address</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter Your Email Address"
-          />
-          <label for="message">Your Email Address</label>
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Enter Your Email Address"
-          ></textarea>
-          <input type="submit" value="Submit" id="submit" class="btn" />
-        </form>
+      <section id="contact" class="contact">
+        <div class="form-wrap">
+          <h3>Contact me</h3>
+          <form>
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your name"
+            />
+            <label for="phone">Your Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Your Phone number"
+            />
+            <label for="email">Your Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email Address"
+            />
+            <label for="message">Your Email Address</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter Your Email Address"
+            ></textarea>
+            <div>
+              <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <footer>

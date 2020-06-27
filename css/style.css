@@ -123,6 +123,10 @@ a {
   opacity: 0.8;
 }
 
+#about {
+  background: #f7edf9;
+  border-bottom: rgb(208, 124, 108, 0.5) 2px solid;
+}
 .about-row {
   display: flex;
   flex-direction: column;
@@ -153,8 +157,8 @@ a {
   flex-direction: row;
   justify-content: center;
   flex-basis: 100%;
-  background: #fef5e6;
-  border: wheat 2px solid;
+  background: #f0f0f0;
+  /* border-bottom: #d8725f 2px solid; */
 }
 .flex-column .project img {
   box-shadow: 2px 2px 5px grey;
@@ -171,7 +175,7 @@ a {
 
 .flex-column #project_2 {
   flex-direction: row-reverse;
-  background: #fdeccd;
+  background: #e1e1e1;
 }
 
 .flex-column .project h3 {
@@ -217,4 +221,10 @@ a {
   padding: 10px 20px;
   border-radius: 5px;
   color: #5d1d2e;
+}
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
