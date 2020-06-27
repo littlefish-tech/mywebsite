@@ -1,168 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yimeng Yu | A full stack developer</title>
-    <script src="https://kit.fontawesome.com/78df251e9f.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/78df251e9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
-</head>
+  </head>
 
-<body id="home">
+  <body id="home">
     <header class="hometop">
-        <div id="navbar" class="navbar top">
-            <h1 class="logo">
-                <i class="fas fa-seedling"></i>
-                <!-- Yimeng Yu -->
-            </h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portlio">Portfolio</a></li>
-                    <li><a href="#blogs">Blogs</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </nav>
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <i class="fas fa-seedling"></i>
+          <!-- Yimeng Yu -->
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portlio">Portfolio</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="homeintro">
+        <h1 class="myname">This is Yimeng Yu</h1>
+        <p class="myposition">Full Stack Web Developer</p>
+        <div class="social">
+          <div class="socialname">
+            <a href="https://linkedin.com/in/yimeng-yu" target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i>
+              <div>
+                LinkedIn
+              </div>
+            </a>
+          </div>
+          <div class="socialname">
+            <a href="https://github.com/littlefish-tech" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+              <div>
+                Github
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="homeintro">
-            <h1 class="myname">This is Yimeng Yu</h1>
-            <p class="myposition">Full Stack Web Developer</p>
-            <div class="social">
-                <div class="socialname">
-                    <a href="https://linkedin.com/in/yimeng-yu" target="_blank"><i class="fab fa-linkedin fa-2x"></i>
-                        <div>
-                            LinkedIn
-                        </div>
-                    </a>
-                </div>
-                <div class="socialname">
-                    <a href="https://github.com/littlefish-tech" target="_blank">
-                        <i class="fab fa-github fa-2x"></i>
-                        <div>
-                            Github
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <a href="#about" class="about-btn btn">About me</a>
-        </div>
+        <a href="#about" class="about-btn btn">About me</a>
+      </div>
     </header>
     <main>
-        <div id="about" class="flex-row">
-            <div class="about-row">
-                <i class="fas fa-laptop-code fa-4x"></i>
-                <h3>Web Developer</h3>
-                <p>Graduated from University of California, Berkeley - Full Stack Web Development Boot Camp. A lifetime
-                    learner always want to learn and know new tools and technologies. </p>
-            </div>
-            <div class="about-row">
-                <i class="fas fa-cocktail fa-4x"></i>
-                <h3>
-                    Creative cooker
-                </h3>
-                <p>Cooking is my habit. I feel cooking is the
-                    same as programming. Creatively building different ingredients together and create magical dishes.
-                </p>
-            </div>
-            <div class="about-row">
-                <i class="fas fa-female fa-4x"></i>
-                <h3>
-                    My Skills
-                </h3>
-                <p>JavaScript, CSS3, HTML5, React.js, Redux, MongoDB, MySQL, Node.js, Python, Django, Express.js,
-                    PostgreSQL, jQuery, Bootstrap, API, JSON, AJAX</p>
-            </div>
+      <div id="about" class="flex-row">
+        <div class="about-row">
+          <i class="fas fa-laptop-code fa-4x"></i>
+          <h3>Web Developer</h3>
+          <p>
+            Graduated from University of California, Berkeley - Full Stack Web
+            Development Boot Camp. A lifetime learner always want to learn and
+            know new tools and technologies.
+          </p>
         </div>
-        <section id="portfolio" class="flex-column">
-            <div class="project" id="project_1">
-                <div class="project_img">
-                    <img src="img/todolist.png">
-                </div>
-                <div class="project_dis">
-                    <h3>
-                        To Do List
-                    </h3>
-                    <p>It is a app to help update task and track the to do task. A user register their account, and put
-                        the task name, the person assigned task, due date, and if the task if urgent. The user will be
-                        able to see all the to do task on the right side of the screen, simply update or delete tasks.
-                    </p>
-                    <a href="#">Try the App</a>
-                </div>
-
-            </div>
-            <div class="project" id="project_2">
-                <div class="project_img">
-                    <img src="img/classroomplanet.png">
-                </div>
-                <div class="project_dis">
-                    <h3>
-                        The Classroom Planet
-                    </h3>
-                    <p>This is a cool app for the parents in a classroom to connected with each other. Once the parent
-                        registered the account, they will be able to post a post to the community, leave comment,
-                        like/dislike others' post. Easily for parents to communicate with each other.
-                    </p>
-                    <a href="#">Try the App</a>
-                </div>
-            </div>
-            <div class="project" id="project_3">
-                <div class="project_img">
-                    <img src="img/lfwholesale.png">
-                </div>
-                <div class="project_dis">
-                    <h3>
-                        LF Wholesale Grocery
-                    </h3>
-                    <p>This is a site for online wholesale shopping. The application has the admin page, so the admin
-                        can manage/update the products and sales managers. The customer search products by key words,
-                        price, categories, and they can also send inquiries to the product sales manager. </p>
-                    <a href="#">Try the App</a>
-                </div>
-            </div>
-        </section>
-        <div class="blogs">
-            <div class="blog" id="blog_1">
-                <h3>A simply way to get user’s Local Air Quality Index</h3>
-                <p>Air Quality is one of the most important factors that people care about the environment now. People
-                    can control what they eat, but we cannot control what we breath in our body. Even we don’t have the
-                    control of the air quality, but we still can do some preparation when the air quality is bad, so we
-                    can best protect ourselves...</p>
-                <a
-                    href="https://medium.com/@yimeng.yu_94678/a-simply-way-to-get-users-local-air-quality-index-5cefacc40cb0">Read
-                    More</a>
-            </div>
-            <div class="blog" id="blog_2">
-                <h3>MySQL Command CRUD</h3>
-                <p>CRUD is the most basic function in MySQL, it stands for — Create, Read, Update, Delete.
-                    Database is the center of a web application. It stores information in the database but it is very
-                    important to not revealed to...</p>
-                <a href="https://medium.com/@yimeng.yu_94678/mysql-command-crud-cc37f7b8eb46">Read
-                    More</a>
-            </div>
+        <div class="about-row">
+          <i class="fas fa-cocktail fa-4x"></i>
+          <h3>
+            Creative cooker
+          </h3>
+          <p>
+            Cooking is my habit. I feel cooking is the same as programming.
+            Creatively building different ingredients together and create
+            magical dishes.
+          </p>
         </div>
+        <div class="about-row">
+          <i class="fas fa-female fa-4x"></i>
+          <h3>
+            My Skills
+          </h3>
+          <p>
+            JavaScript, CSS3, HTML5, React.js, Redux, MongoDB, MySQL, Node.js,
+            Python, Django, Express.js, PostgreSQL, jQuery, Bootstrap, API,
+            JSON, AJAX
+          </p>
+        </div>
+      </div>
+      <section id="portfolio" class="flex-column">
+        <div class="project" id="project_1">
+          <div class="project_img">
+            <img src="img/todolist.jpg" />
+          </div>
+          <div class="project_dis">
+            <h3>
+              To Do List
+            </h3>
+            <p>
+              It is a app to help update task and track the to do task. A user
+              register their account, and put the task name, the person assigned
+              task, due date, and if the task if urgent. The user will be able
+              to see all the to do task on the right side of the screen, simply
+              update or delete tasks.
+            </p>
+            <a class="projectBtn" href="#">Try the App</a>
+          </div>
+        </div>
+        <div class="project" id="project_2">
+          <div class="project_img">
+            <img src="img/classroomplanet.png" />
+          </div>
+          <div class="project_dis">
+            <h3>
+              The Classroom Planet
+            </h3>
+            <p>
+              This is a cool app for the parents in a classroom to connected
+              with each other. Once the parent registered the account, they will
+              be able to post a post to the community, leave comment,
+              like/dislike others' post. Easily for parents to communicate with
+              each other.
+            </p>
+            <a class="projectBtn" href="#">Try the App</a>
+          </div>
+        </div>
+        <div class="project" id="project_3">
+          <div class="project_img">
+            <img src="img/lfwholesale.jpg" />
+          </div>
+          <div class="project_dis">
+            <h3>
+              LF Wholesale Grocery
+            </h3>
+            <p>
+              This is a site for online wholesale shopping. The application has
+              the admin page, so the admin can manage/update the products and
+              sales managers. The customer search products by key words, price,
+              categories, and they can also send inquiries to the product sales
+              manager.
+            </p>
+            <a class="projectBtn" href="#">Try the App</a>
+          </div>
+        </div>
+      </section>
+      <div class="blogs">
+        <div class="blog" id="blog_1">
+          <h3>A simply way to get user’s Local Air Quality Index</h3>
+          <p>
+            Air Quality is one of the most important factors that people care
+            about the environment now. People can control what they eat, but we
+            cannot control what we breath in our body. Even we don’t have the
+            control of the air quality, but we still can do some preparation
+            when the air quality is bad, so we can best protect ourselves...
+          </p>
+          <a
+            href="https://medium.com/@yimeng.yu_94678/a-simply-way-to-get-users-local-air-quality-index-5cefacc40cb0"
+            target="_blank"
+            >Read More</a
+          >
+        </div>
+        <div class="blog" id="blog_2">
+          <h3>MySQL Command CRUD</h3>
+          <p>
+            CRUD is the most basic function in MySQL, it stands for — Create,
+            Read, Update, Delete. Database is the center of a web application.
+            It stores information in the database but it is very important to
+            not revealed to...
+          </p>
+          <a
+            href="https://medium.com/@yimeng.yu_94678/mysql-command-crud-cc37f7b8eb46"
+            target="_blank"
+            >Read More</a
+          >
+        </div>
+      </div>
 
-        <section class="contact">
-            <form>
-                <label for="name">Your Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter Your name">
-                <label for="phone">Your Phone Number</label>
-                <input type="text" name="phone" id="phone" placeholder="Enter Your Phone number">
-                <label for="email">Your Email Address</label>
-                <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
-                <label for="message">Your Email Address</label>
-                <textarea name="message" id="message" placeholder="Enter Your Email Address"></textarea>
-                <input type="submit" value="Submit" id="submit" class="btn" />
-            </form>
-        </section>
-
+      <section class="contact">
+        <form>
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your name"
+          />
+          <label for="phone">Your Phone Number</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Enter Your Phone number"
+          />
+          <label for="email">Your Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email Address"
+          />
+          <label for="message">Your Email Address</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter Your Email Address"
+          ></textarea>
+          <input type="submit" value="Submit" id="submit" class="btn" />
+        </form>
+      </section>
     </main>
     <footer>
-        <p>Copyright &copy; 2020</p>
+      <p>Copyright &copy; 2020</p>
     </footer>
-</body>
-
+  </body>
 </html>
