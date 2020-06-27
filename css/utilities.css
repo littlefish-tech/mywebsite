@@ -2,3 +2,16 @@
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+  .flex-row .about-row {
+    border-bottom: rgb(250, 252, 255, 0.6) solid 2px;
+  }
+
+  .flex-row .about-3 {
+    border-bottom: none;
+  }
+}

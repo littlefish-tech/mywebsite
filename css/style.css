@@ -253,7 +253,7 @@ a {
 .contact .form-wrap textarea {
   display: block;
   width: 100%;
-  padding: 5px 10px;
+  padding: 10px 10px;
   border: #f5f5f5 1px solid;
 }
 
@@ -290,4 +290,47 @@ footer {
   color: #191919;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 90px;
+  }
+  .navbar .logo {
+    padding-top: 10px;
+  }
+  .navbar nav {
+    padding-bottom: 10px;
+  }
+  .navbar nav a {
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 10px;
+  }
+
+  .flex-column .project {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .flex-column .project > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    flex: 1;
+    text-align: center;
+  }
+  .flex-column #project_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-column .project img {
+    height: 200px;
+  }
+
+  .blogs .blog {
+    text-align: center;
+  }
 }
