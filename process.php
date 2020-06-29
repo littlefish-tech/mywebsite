@@ -9,9 +9,9 @@
     $message = $_POST['message'];
     
     //send email
-    mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
+    mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From: $name <$email>");
 
     header('Location: https://littlefish-tech.github.io/mywebsite.github.io/');
   }
 
-  ?>
+?>
