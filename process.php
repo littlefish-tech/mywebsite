@@ -13,3 +13,5 @@
 
     header('Location: https://littlefish-tech.github.io/mywebsite.github.io/');
   }
+
+  ?>
